@@ -36,3 +36,5 @@ structure of each training data:
         default: Date.now
     }
 }
+
+Refer to file submitted in Luminus for more details.
