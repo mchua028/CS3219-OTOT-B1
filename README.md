@@ -13,7 +13,7 @@ http://localhost:8080/restapi/
 
 Endpoints:
 GET:
-http://localhost:8080/restapi/trainings
+http://localhost:8080/restapi/trainings,
 http://localhost:8080/restapi/trainings/[training._id]
 
 POST:
@@ -25,8 +25,8 @@ http://localhost:8080/restapi/trainings/[training._id]
 DELETE:
 http://localhost:8080/restapi/trainings/[training._id]
 
-mongoose schema of training:
-var trainingSchema = mongoose.Schema({
+structure of each training data:
+{
     name: String,
     distance: String,
     duration: String,
@@ -35,4 +35,4 @@ var trainingSchema = mongoose.Schema({
         type: Date,
         default: Date.now
     }
-});
+}
